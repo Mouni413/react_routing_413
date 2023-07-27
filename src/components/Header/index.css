@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.wave-logo {
+  height: 25px;
+  margin-right: 5px;
+}
+
+.list-contianer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-item {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+}
